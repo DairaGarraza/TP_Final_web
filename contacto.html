@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <!--link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"-->
+    <link rel="stylesheet" href="css/estilo_general.css">
+    <link rel="stylesheet" href="css/estilo_contacto.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <main>
+       <section>
+            <article class="formulario">
+                <form action="form/envio.php" method="post">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" name="nombre" placeholder="Ingrese el nombre y Apellido" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="ejemplo@ejemplo.com.ar" required>
+
+                    <label for="telefono">Telefono: </label>
+                    <input type="texto" name="telefono" placeholder="011 4444-4444" required>
+
+                    <label for="Consultas">Consultas:</label>
+                    <textarea name="consulta" placeholder="Ingrese su consulta" required></textarea>
+
+                    <input type="submit" value="Enviar" class="boton">
+                </form>
+            </article>
+
+            <article> 
+                <h2>Datos de Contacto</h2>
+                <p>Instagram: <a href="#">@DairaVictoria</a></p>
+                <p>Facebook: <a href="#">Daira Victoria</a></p>
+                <p>Mail: <a href="#">daira.garraza@gmail.com</a></p>
+                <p>Telefono: 11 2222-3333</p>
+            </article>
+        </section>
+        
+    </main>
+</body>
+</html>

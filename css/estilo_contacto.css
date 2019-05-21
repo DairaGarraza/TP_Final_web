@@ -1,0 +1,48 @@
+section{
+ 	display: flex;
+ 	flex-direction: ;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 85%;
+    margin: 20px auto;
+ }
+article{
+ 	padding: 10px;
+ 	box-sizing: border-box;
+ 	float: left;
+ 	width: auto;
+ 	background-color: #4CC1C1;
+ 	border-radius: 15px;
+
+ }
+ input, textarea, label{
+ 	padding: 5px;
+ 	box-sizing: border-box;
+ 	float: left;
+ }
+ label{
+ 	display: block;
+ 	margin-top: 10px;
+ 	padding-left: 0;
+ 	width: 40%;
+ 	margin-right: 5%;
+ 	clear: left;
+ }
+input, textarea{
+ 	width: 50%;
+ }
+ .boton{
+ 	width: auto;
+ 	margin-top: 10px;
+ 	float: right;
+ 	background-color: #000;
+ 	color: #fff;
+ 	border:none;
+ 	border-radius: 30px;
+ 	cursor: pointer;
+
+ }
+ .boton:hover{
+ 	background-color: #ccc;
+ 	color: #000;
+ }
