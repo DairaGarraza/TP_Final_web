@@ -71,3 +71,19 @@ main article{
  .contenedor-tarjetas img{
     padding: 5px;
  }
+/* agrego cosas para ver como quedan. despues veo si las dejo.*/
+
+.slider{
+    width: auto;
+    height: auto;
+}
+.pasos article{
+    width: 15%;
+    text-align: center;
+    background-color: #02A4A4;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 5px;
+}
