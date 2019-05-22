@@ -19,3 +19,11 @@ main article{
  	background-color: #4CC1C1;
  	border-radius: 15px;
  }
+ .contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+ }
+ .contenedor-tarjetas img{
+    padding: 5px;
+ }
