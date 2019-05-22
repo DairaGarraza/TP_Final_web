@@ -1,4 +1,4 @@
- *{
+ {
     margin: 0;
     padding: 0;
 }
@@ -42,7 +42,7 @@ footer a{
 footer li{
 	list-style: none;
 	margin: 5px;
-=======
+
 header{
 	background-color: #4CC1C1;
 	display: flex;
@@ -94,5 +94,4 @@ header{
     width: 20px;
     height: 20px;
     text-align: center;
->>>>>>> 22f18fcd86eef61ed8289ef52df615fc354bc1ec
 }
