@@ -42,3 +42,12 @@ header{
 	padding: 8px;
 	box-sizing: border-box;  
 }
+.contador-de-eventos{
+	border-radius: 50%;
+    background: red;
+    color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
