@@ -1,11 +1,11 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
-    <link rel="stylesheet" href="css/estilo_contacto.css">
+    <!--link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"-->
     <link rel="stylesheet" href="css/estilo_general.css">
-    
+    <link rel="stylesheet" href="css/estilo_contacto.css">
 </head>
 <body>
     <header>
@@ -13,8 +13,8 @@
     </header>
     <main>
        <section>
-            <article>
-                <form action="#" method="get">
+            <article class="formulario">
+                <form action="form/envio.php" method="post">
                     <label for="nombre">Nombre y Apellido:</label>
                     <input type="text" name="nombre" placeholder="Ingrese el nombre y Apellido" required>
 
@@ -31,13 +31,13 @@
                 </form>
             </article>
 
-            <aside> 
+            <article> 
                 <h2>Datos de Contacto</h2>
                 <p>Instagram: <a href="#">@DairaVictoria</a></p>
                 <p>Facebook: <a href="#">Daira Victoria</a></p>
                 <p>Mail: <a href="#">daira.garraza@gmail.com</a></p>
                 <p>Telefono: 11 2222-3333</p>
-            </aside>
+            </article>
         </section>
         <section>
         	<article>
@@ -46,27 +46,5 @@
         </section>
         
     </main>
-   <footer>
-        <section>
-            <article>
-                <p>Leandro Aranda</p>
-                <p>Rocio Isaurralde</p>
-                <p>Daira Garraza</p>
-            </article>
-            <article>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </article>
-            <article>
-                <p>Instagram </p>
-                <p>Facebook</p>
-                <p>Tuiter </p>
-            </article>
-        </section>  
-    </footer>
 </body>
 </html>

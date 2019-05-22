@@ -1,12 +1,44 @@
-*{
+ *{
     margin: 0;
     padding: 0;
 }
 body{
 /*background-image: url(../img/fondo4.jpg);*/
 background-color: #7DE8E8;
+font-family: arial;
 }
-header{
-	background-color: #4CC1C1;
-	
+
+footer{
+ 	background-color:#044E56;
+ 	/*background-color: #560452;*/
+ 	color: #fff;
+ 	padding: 15px;
+ 	box-sizing: border-box;
+ 	position: relative;
+ 	bottom: 0;
+}
+footer section{
+	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+    align-items: stretch;
+}
+
+footer article{
+	/*background-color: #560452;*/
+	width: 30%;
+	text-align: center;
+	padding: 5px;
+	box-sizing: border-box;
+}
+footer p{
+	margin: 5px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+footer li{
+	list-style: none;
+	margin: 5px;
 }
