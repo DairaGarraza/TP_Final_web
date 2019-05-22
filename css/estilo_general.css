@@ -10,3 +10,25 @@ header{
 	background-color: #4CC1C1;
 	
 }
+header nav{
+	background-color: #ffdfe6;
+}
+nav ul{
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+	padding: 15px 10px;
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+	padding: 15px;
+	background-color: #ffdfe6;
+	font-size: 1.1em;
+}
+nav a:hover{
+	background-color: #c5ece7;
+	color: #000;
+}
