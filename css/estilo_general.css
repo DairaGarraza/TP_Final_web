@@ -114,4 +114,19 @@ footer li{
 	list-style: none;
 	margin: 5px;
 }
+.boton{
+  background-color: DodgerBlue;
+  border: none;
+  color: white; 
+  padding: 9px 17px; 
+  font-size: 16px;
+  cursor: pointer; 
+  border-radius: 15px;
+}
+.boton:hover {
+  background-color: RoyalBlue;
+}
+.titulo-centrado{
+	text-align: center;
+}
 
