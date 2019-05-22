@@ -19,6 +19,49 @@ main article{
  	background-color: #4CC1C1;
  	border-radius: 15px;
  }
+
+ .contenedor-de-eventos{
+	display: flex;
+	justify-content: space-around;	
+    padding: 10px;
+}
+
+.evento{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);    
+    border-radius: 5px;    
+}
+
+.evento img{
+	width: 100%;
+}
+.detalle-evento{
+    padding: 2px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.fecha-evento p {
+    font-family: Helvetica, sans-serif; 
+    font-size: 1.5em;
+    color: #2c2424; 
+    font-weight: bold;
+}
+
+.fecha-evento span{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}
+.info-evento{
+    display: flex;
+    flex-direction: column;  
+    text-align: right;  
+}
+.info-evento p{
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    float: right;
+}
  .contenedor-tarjetas{
     display: flex;
     justify-content: center;
