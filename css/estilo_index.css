@@ -62,3 +62,11 @@ main article{
     font-weight: bold;
     float: right;
 }
+ .contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+ }
+ .contenedor-tarjetas img{
+    padding: 5px;
+ }
