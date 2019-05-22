@@ -8,12 +8,17 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
+	<datalist id="mi-data-list">
+		<option value="Lollapalooza"/>
+		<option value="Les Luthiers"/>
+		<option value="Los Rodriguez"/>
+	</datalist>
 	<header>
       <div>
         <img class="logo" src="img/logo.png">
       </div>
       <div class="input-icon">
-        <input class="buscador" type="text" placeholder="Busca tu evento...">
+        <input class="buscador" type="text" placeholder="Busca tu evento..." list="mi-data-list">
         <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i> 
       </div>
       <div class="carrito">
