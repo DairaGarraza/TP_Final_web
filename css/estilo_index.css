@@ -1,0 +1,21 @@
+ main{
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ main section{
+ 	display: flex;
+ 	flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 80%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+ }
+main article{
+ 	padding: 10px;
+ 	box-sizing: border-box;
+ 	float: left;
+ 	width: auto;
+ 	background-color: #4CC1C1;
+ 	border-radius: 15px;
+ }

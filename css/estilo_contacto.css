@@ -1,22 +1,27 @@
-section{
+ main{
  	display: flex;
- 	flex-direction: ;
+ 	flex-direction: column;
+ }
+ main section{
+ 	display: flex;
+ 	flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
-    width: 85%;
+    align-items: stretch;
+    width: 80%;
     margin: 20px auto;
  }
-article{
+main article{
  	padding: 10px;
  	box-sizing: border-box;
  	float: left;
  	width: auto;
  	background-color: #4CC1C1;
  	border-radius: 15px;
-
  }
+
  input, textarea, label{
  	padding: 5px;
+ 	margin:auto;
  	box-sizing: border-box;
  	float: left;
  }
@@ -24,8 +29,8 @@ article{
  	display: block;
  	margin-top: 10px;
  	padding-left: 0;
- 	width: 40%;
- 	margin-right: 5%;
+ 	width: 50%;
+ 	margin-right: 0;
  	clear: left;
  }
 input, textarea{
@@ -34,6 +39,7 @@ input, textarea{
  .boton{
  	width: auto;
  	margin-top: 10px;
+ 	margin-right: 15px;
  	float: right;
  	background-color: #000;
  	color: #fff;
@@ -45,4 +51,30 @@ input, textarea{
  .boton:hover{
  	background-color: #ccc;
  	color: #000;
+<<<<<<< HEAD
  }
+ aside{
+ 	padding: 10px;
+ 	box-sizing: border-box;
+ 	float: left;
+ 	width: auto;
+ 	background-color: #4CC1C1;
+ 	border-radius: 15px;
+ }
+ aside p{
+ 	padding: 5px;
+ 	box-sizing: border-box;
+
+ }
+ h2{
+ 	padding: 5px;
+ 	box-sizing: border-box;
+ 	background-color:#044E56;
+ 	color:#4CC1C1;
+ 	border-radius: 15px;
+ 	text-align: center;
+ }
+ 
+=======
+ }
+>>>>>>> 22f18fcd86eef61ed8289ef52df615fc354bc1ec
