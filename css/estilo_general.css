@@ -58,7 +58,7 @@ header{
     height: 20px;
     text-align: center;
 }
-header nav{
+.menu{
 	background-color: #ffdfe6;
 }
 nav ul{
