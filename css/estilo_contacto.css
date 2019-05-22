@@ -51,6 +51,7 @@ input, textarea{
  .boton:hover{
  	background-color: #ccc;
  	color: #000;
+<<<<<<< HEAD
  }
  aside{
  	padding: 10px;
@@ -74,3 +75,6 @@ input, textarea{
  	text-align: center;
  }
  
+=======
+ }
+>>>>>>> 22f18fcd86eef61ed8289ef52df615fc354bc1ec
