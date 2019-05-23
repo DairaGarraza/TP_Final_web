@@ -56,8 +56,15 @@ header{
     position: absolute;
     width: 20px;
     height: 20px;
+	top: 0px;
+	margin-left: 15px;
     text-align: center;
 }
+
+.carrito{
+	position: relative;
+}
+
 .menu{
 	background-color: #ffdfe6;
 }
