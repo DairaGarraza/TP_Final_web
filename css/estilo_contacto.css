@@ -1,22 +1,24 @@
- main{
+main{
  	display: flex;
  	flex-direction: column;
  }
  main section{
  	display: flex;
  	flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: stretch;
     width: 80%;
     margin: 20px auto;
  }
 main article{
- 	padding: 10px;
+ 	padding: 20px;
  	box-sizing: border-box;
  	float: left;
- 	width: auto;
- 	background-color: #4CC1C1;
+ 	width: 40%;
+ 	background-color: #0BBABA;
  	border-radius: 15px;
+ 	font-weight: bold;
+ 	color: #fff;
  }
 
  input, textarea, label{
@@ -35,15 +37,15 @@ main article{
  }
 input, textarea{
  	width: 50%;
+ 	border: 2px solid #044E56;
  }
- .boton{
+  form .boton{
  	width: auto;
  	margin-top: 10px;
  	margin-right: 15px;
  	float: right;
- 	background-color: #000;
+ 	background-color:#044E56;
  	color: #fff;
- 	border:none;
  	border-radius: 30px;
  	cursor: pointer;
 
@@ -51,30 +53,51 @@ input, textarea{
  .boton:hover{
  	background-color: #ccc;
  	color: #000;
-<<<<<<< HEAD
  }
  aside{
- 	padding: 10px;
+ 	padding-top: 10px;
+ 	padding-right: 10px;
+ 	padding-left: 10px;
  	box-sizing: border-box;
+ 	text-align: center;
  	float: left;
- 	width: auto;
- 	background-color: #4CC1C1;
+ 	width: 40%;
+ 	background-color: #0BBABA;
  	border-radius: 15px;
+ 	font-weight: bold;
+ 	color: #fff;
  }
  aside p{
  	padding: 5px;
+ 	padding-top: 10px;
+ 	padding-right: 10px;
+ 	padding-left: 10px;
  	box-sizing: border-box;
-
+ }
+ aside span{
+ 	color: #044E56;
+ }
+ aside a{
+ 	text-decoration: none;
+ 	color:#044E56;
  }
  h2{
- 	padding: 5px;
+ 	margin: 10px;
+ 	padding: 10px;
  	box-sizing: border-box;
  	background-color:#044E56;
- 	color:#4CC1C1;
+ 	color:#fff;
  	border-radius: 15px;
  	text-align: center;
  }
- 
-=======
- }
->>>>>>> 22f18fcd86eef61ed8289ef52df615fc354bc1ec
+.mapa{
+	
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+.mapa iframe{
+	width: 100%;
+	height: 400px;
+}

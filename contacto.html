@@ -1,28 +1,43 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/estilo_contacto.css">
     <link rel="stylesheet" href="css/estilo_general.css">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
+	<datalist id="mi-data-list">
+		<option value="Lollapalooza"/>
+		<option value="Les Luthiers"/>
+		<option value="Los Rodriguez"/>
+	</datalist>
     <header>
         <div>
             <img class="logo" src="img/logo.png">
         </div>
         <div class="input-icon">
-            <input class="buscador" type="text" placeholder="Busca tu evento...">
+            <input class="buscador" type="text" placeholder="Busca tu evento..." list="mi-data-list">
             <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i> 
         </div>
         <div class="carrito">
             <img src="img/carrito_1.png">
             <span class="contador-de-eventos">5</span>
         </div>
+        
     </header>
+    
     <main>
-       <section>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#">Resumen de compra</a></li>
+            </ul>
+        </nav>
+
+        <section>
             <article>
                 <form action="#" method="get">
                     <label for="nombre">Nombre y Apellido:</label>
@@ -40,28 +55,22 @@
                     <input type="submit" value="Enviar" class="boton">
                 </form>
             </article>
-
             <aside> 
                 <h2>Datos de Contacto</h2>
                 <p>Instagram: <a href="#">@DairaVictoria</a></p>
                 <p>Facebook: <a href="#">Daira Victoria</a></p>
                 <p>Mail: <a href="#">daira.garraza@gmail.com</a></p>
-                <p>Telefono: 11 2222-3333</p>
+                <p>Telefono: <span>11 2222-3333</span></p>
             </aside>
         </section>
-        <section>
-        	<article>
-        		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13125.981945658838!2d-58.573808612780766!3d-34.66744216389612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8867107f425fade5!2sUniversidad+Nacional+de+La+Matanza!5e0!3m2!1ses!2sar!4v1558465262229!5m2!1ses!2sar" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <section >
+        	<article class="mapa">
+        		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13125.981945658838!2d-58.573808612780766!3d-34.66744216389612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8867107f425fade5!2sUniversidad+Nacional+de+La+Matanza!5e0!3m2!1ses!2sar!4v1558465262229!5m2!1ses!2sar" ></iframe>
         	</article>
         </section>
-        <section>
-        	<article>
-        		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13125.981945658838!2d-58.573808612780766!3d-34.66744216389612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8867107f425fade5!2sUniversidad+Nacional+de+La+Matanza!5e0!3m2!1ses!2sar!4v1558465262229!5m2!1ses!2sar" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-        	</article>
-        </section>
-        
     </main>
-   <footer>
+    <footer>
         <section>
             <article>
                 <p>Leandro Aranda</p>
@@ -77,9 +86,9 @@
                 </nav>
             </article>
             <article>
-                <p>Instagram </p>
-                <p>Facebook</p>
-                <p>Tuiter </p>
+                <img src="img/logo-instagram.png">
+                <img src="img/logo-facebook.png">
+                <img src="img/logo-twitter.png">
             </article>
         </section>  
     </footer>
