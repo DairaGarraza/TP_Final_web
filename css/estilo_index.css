@@ -19,6 +19,7 @@ main article{
  	background-color: #4CC1C1;
  	border-radius: 15px;
  }
+
  h2{
     background-color: #106299;
     color:#4CC1C1;
@@ -73,6 +74,7 @@ main article{
     font-weight: bold;
     float: right;
 }
+
 .info-evento a{
     text-decoration: none;
     color: #000;
