@@ -29,6 +29,9 @@ width: 100%
     border: 2px solid #0BBABA;
     color: #000;
  }
+ .descripcion p{
+    padding: 2px;
+ }
  
  h3{
     background-color: #106299;
