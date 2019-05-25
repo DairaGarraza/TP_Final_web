@@ -1,12 +1,12 @@
-main{
+ main{
  	display: flex;
  	flex-direction: column;
  }
  main section{
  	display: flex;
  	flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content: space-around;
+    align-items:center;
     width: 80%;
     margin: 20px auto;
  }
@@ -20,6 +20,26 @@ main article{
     font-weight: bold;
     color: #fff;
  }
+ 
+ .foto{
+width: 100%
+ }
+ .descripcion{
+    background-color: #FB66A7;
+    border: 2px solid #0BBABA;
+    color: #000;
+ }
+ 
+ h3{
+    background-color: #106299;
+    color:#FB66A7;
+    font-family: verdana;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px;
+ }
+ 
  h2{
     background-color: #106299;
     color:#4CC1C1;
