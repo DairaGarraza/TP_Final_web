@@ -1,0 +1,67 @@
+main{
+ 	display: flex;
+ 	flex-direction: column;
+}
+main section{
+ 	display: flex;
+ 	flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+main article{
+ 	padding: 20px;
+ 	box-sizing: border-box;
+ 	float: left;
+ 	width: 60%;
+ 	background-color: #0BBABA;
+ 	border-radius: 15px;
+ 	font-weight: bold;
+ 	color: #fff;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+}
+h2{
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+h3{
+	font-size: 16px;
+}
+h4{
+	font-size: 14px;
+	margin-top: 4.5px;
+	margin-left: 10px;
+}
+h5{
+	margin-top: 16px;
+	font-size: 18px;
+	margin-right: 18px;
+	background-color: #000;
+	border-radius: 2px;
+	padding: 7px;
+}
+.signo img{
+	min-width: 25px;
+	max-width: 25px;
+	min-height: 25px;
+	max-height: 25px; 
+}
+.titulos{
+	display: flex;
+ 	flex-direction: column;
+}
+.contenedor-campos, .agregar, .monto{
+	display: flex;
+ 	flex-direction: row;
+}
+.acciones{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.boton{
+	margin-top: 15px;
+}
