@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Detalles del Evento</title>
+    <title>Resumen de entradas</title>
 	<link rel="stylesheet" href="css/estilo_general.css">
-	<link rel="stylesheet" href="css/estilo_resumen.css">
+	<link rel="stylesheet" href="css/estilo_resumen_entradas.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
@@ -38,7 +38,55 @@
             <li><a href="#">Resumen de compra</a></li>
         </ul>
     </nav>
-    
+    <div class="contenedor-resumen">
+      <h2>Resumen de entradas compradas</h2>
+      <table>
+        <tr>
+          <th>Fecha</th>
+          <th>Titulo</th>
+          <th>Estado</th>
+          <th>Precio Unitario</th>
+          <th>Cantidad</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td>19/05/2019</td>
+          <td>Evento 1</td>
+          <td><button class="boton-personalizar">Personalizar</button></td>
+          <td>$1000.00</td>
+          <td>2</td>
+          <td>$2000.00</td>
+        </tr>
+        <tr>
+          <td>22/05/2019</td>
+          <td>Evento 2</td>
+          <td><button class="boton-modificar">Modificar personalizacion</button></td>
+          <td>$3000.00</td>
+          <td>1</td>
+          <td>$3000.00</td>
+        </tr>
+        <tr>
+          <td>25/05/2019</td>
+          <td>Evento 3</td>
+          <td><button class="boton-modificar">Modificar personalizacion</button></td>
+          <td>$700.00</td>
+          <td>2</td>
+          <td>$1400.00</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>$6400.00</td>
+        </tr>
+      </table>
+      <div class="footer-resumen">
+        <button class="boton"><i class="fa fa-ticket-alt"></i> Seguir comprando</button>
+        <button class="boton">Finalizar compra</button>
+      </div>
+    </div>
       
     </main>
 
