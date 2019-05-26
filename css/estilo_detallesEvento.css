@@ -6,36 +6,46 @@
  	display: flex;
  	flex-direction: row;
     justify-content: space-around;
-    align-items:center;
+    align-items:stretch;
     width: 80%;
     margin: 20px auto;
  }
 main article{
     padding: 20px;
     box-sizing: border-box;
-    float: left;
-    width: 40%;
+    width: 50%;
     background-color: #0BBABA;
     border-radius: 15px;
-    font-weight: bold;
-    color: #fff;
  }
  
  .foto{
-width: 100%
+    width: 100%
  }
  .descripcion{
+    width: 25%;
     background-color: #FB66A7;
     border: 2px solid #0BBABA;
     color: #000;
  }
  .descripcion p{
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 2px;
+    color:#650B02;
+ }
+ .descripcion span{
+    font-weight: normal;
+    text-align:right;
     padding: 2px;
     color: #fff;
- }
+}
+.descripcion .boton{
+    margin-top: 200px;
+    margin-left: 20px;
+}
  
  h3{
-    background-color: #106299;
+    background-color: #650B02;
     color:#FB66A7;
     font-family: verdana;
     text-align: center;

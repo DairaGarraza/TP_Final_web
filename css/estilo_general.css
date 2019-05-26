@@ -16,6 +16,7 @@ header{
     color: #000;
     align-items: center;
 }
+
 .logo{
 	min-width: 130px;
 	max-width: 170px;
@@ -74,6 +75,7 @@ header{
 .menu{
 	background-color: #581975;
 }
+
  main nav ul{
 	text-align: center;
 }
