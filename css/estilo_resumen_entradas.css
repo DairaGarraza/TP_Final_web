@@ -47,4 +47,7 @@ table{
 .boton-modificar:hover {
   background-color: #68307a;
 }
-
+.footer-resumen{
+	display: flex;
+	justify-content: flex-end;
+}
