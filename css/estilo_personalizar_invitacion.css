@@ -11,9 +11,6 @@ section{
 	height: 250px;
 	position: relative;
 }
-.personalizacion{
-	height: 200px;
-}
 .titulo{
 	font-size: 60px;
 	margin: 0 auto;
@@ -26,4 +23,20 @@ section{
 }
 .texto-centrado {
 	text-align: center;
+}
+input[type=text]{
+  width: 80%;
+  padding: 6px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px #61C5FA;
+    border:1px solid #5AB0DB;
+    border-radius:0;
+    
 }
