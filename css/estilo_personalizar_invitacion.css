@@ -43,17 +43,14 @@ input[type=text]:focus{
 	display: flex;		
 }
 .circulo-color{
-	height: 16px;
-	width: 4%;
-	padding: 5px;
+	height: 30px;
+	width: 30px;		
 	margin: 5px; 
-	border-radius: 50px;
-	position: relative;
+	border-radius: 15px;
 }
-.circulo-color input[type=radio]{
-    position: absolute;    
-    bottom: -16px;
-    right: 5px;
+input[type=radio]{
+    display: block;
+    margin: 0 auto;   
 }
 .red{
 	background-color: red;
