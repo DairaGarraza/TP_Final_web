@@ -1,1 +1,29 @@
- 
+section{
+	display: flex;
+	justify-content: center;
+}
+.contenedor{
+	padding: 10px;
+	width: 30%;
+} 
+.vista-previa{
+	background-color: green;
+	height: 250px;
+	position: relative;
+}
+.personalizacion{
+	height: 200px;
+}
+.titulo{
+	font-size: 60px;
+	margin: 0 auto;
+	padding-top: 70px;	
+}
+.fecha{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.texto-centrado {
+	text-align: center;
+}
