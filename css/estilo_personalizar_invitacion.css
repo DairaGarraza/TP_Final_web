@@ -73,3 +73,25 @@ input[type=radio]{
 	margin: 0 auto;
 	padding: 5px;
 }
+.ubicacion{
+	border: 1px solid pink;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	margin: 5px;
+}
+.ubicacion > div{
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	position: absolute;
+}
+.abajo{
+	bottom: 0px;
+}
+.derecha{
+	right: 0px;
+}
+.izquierda{
+	left: 0px;
+}
