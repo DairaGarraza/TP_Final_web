@@ -95,3 +95,8 @@ input[type=radio]{
 .izquierda{
 	left: 0px;
 }
+.fondo-color{
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+}
