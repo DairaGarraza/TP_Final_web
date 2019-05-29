@@ -55,28 +55,112 @@
           </article>
 
           <article class="contenedor">
-            <span>Personalización de Invitación</span>
-            <div>
-              <input type="text" name="tituloEvento" placeholder="Titulo Evento">
-            </div>
-            <label>Color</label>
-            <div class="colores">
-              <div class="circulo-color red">
-                <input type="radio" name="color" value="rojo">
-              </div>   
-              <div class="circulo-color green">
-                <input type="radio" name="color" value="verde">
+            <form>
+              <span>Personalización de Invitación</span>
+
+              <div>
+                <input type="text" name="tituloEvento" placeholder="Titulo Evento">
               </div>
-              <div class="circulo-color blue">
-                <input type="radio" name="color" value="azul">
+
+              <label>Color</label>
+              <div class="contenedor-de-personalizacion">
+                <div>
+                  <div class="circulo-color red"></div>
+                  <input type="radio" name="color" value="rojo">
+                </div>   
+                <div>
+                  <div class="circulo-color green"></div>
+                  <input type="radio" name="color" value="verde">
+                </div>
+                <div>
+                  <div class="circulo-color blue"></div>
+                  <input type="radio" name="color" value="azul">
+                </div>
+                <div>
+                  <div class="circulo-color orange"></div>
+                  <input type="radio" name="color" value="naranja">
+                </div>
+                <div>
+                  <div class="circulo-color pink"></div>
+                  <input type="radio" name="color" value="rosa">
+                </div>
               </div>
-              <div class="circulo-color orange">
-                <input type="radio" name="color" value="naranja">
+
+              <label>Tamaño de fuente</label>
+              <div class="contenedor-de-personalizacion">              
+                <div class="tamanio-fuente">  
+                  <span class="fuente">20px</span>
+                  <input type="radio" name="tamanioFuente" value="20">              
+                </div>              
+                <div class="tamanio-fuente">
+                   <span class="fuente">28px</span>
+                   <input type="radio" name="tamanioFuente" value="28">
+                 </div> 
+                 <div class="tamanio-fuente">
+                   <span class="fuente">32px</span>
+                   <input type="radio" name="tamanioFuente" value="32">
+                 </div> 
+                 <div class="tamanio-fuente">
+                   <span class="fuente">48px</span>
+                   <input type="radio" name="tamanioFuente" value="48">
+                 </div> 
+                 <div class="tamanio-fuente">
+                   <span class="fuente">60px</span>
+                   <input type="radio" name="tamanioFuente" value="60">
+                 </div> 
+              </div> 
+
+              <div>
+                <input type="text" name="fechaHora" placeholder="Fecha y hora">
+              </div> 
+
+              <label>Ubicacion</label>
+              <div class="contenedor-de-personalizacion">
+                <div>
+                  <div class="ubicacion">
+                    <div class="abajo derecha"></div>                  
+                  </div>
+                  <input type="radio" name="ubicacion" value="abajo">
+                </div>
+                <div>
+                  <div class="ubicacion">
+                    <div class="izquierda"></div>                  
+                  </div>
+                  <input type="radio" name="ubicacion" value="arribaIzquierda">
+                </div>
+                <div>
+                  <div class="ubicacion">
+                    <div class="derecha"></div>                  
+                  </div>
+                  <input type="radio" name="ubicacion" value="arribaDerecha">
+                </div>
               </div>
-              <div class="circulo-color pink">
-                <input type="radio" name="color" value="rosa">
+
+              <label>Fondo</label>
+              <div class="contenedor-de-personalizacion">
+                <div>
+                  <div class="fondo-color red"></div>
+                  <input type="radio" name="fondo" value="red">
+                </div>
+                <div>
+                  <div class="fondo-color green"></div>
+                  <input type="radio" name="fondo" value="green">
+                </div>
+                <div>
+                  <div class="fondo-color blue"></div>
+                  <input type="radio" name="fondo" value="blue">
+                </div>
+                <div>
+                  <div class="fondo-color orange"></div>
+                  <input type="radio" name="fondo" value="orange">
+                </div>
+                <div>
+                  <div class="fondo-color pink"></div>
+                  <input type="radio" name="fondo" value="pink">
+                </div>
               </div>
-            </div>
+               <button type="submit" class="boton">Confirmar</button>
+             </form>
           </article>   
         </section> 
              

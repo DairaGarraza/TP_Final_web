@@ -5,11 +5,12 @@ section{
 .contenedor{
 	padding: 10px;
 	width: 30%;
-} 
+}
 .vista-previa{
 	background-color: green;
 	height: 250px;
 	position: relative;
+	margin-bottom: 15px;
 }
 .titulo{
 	font-size: 60px;
@@ -20,6 +21,8 @@ section{
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
+	margin-bottom: 15px;
+	margin-right: 15px; 
 }
 .texto-centrado {
 	text-align: center;
@@ -39,21 +42,18 @@ input[type=text]:focus{
     border:1px solid #5AB0DB;
     border-radius:0;
 }
-.colores{
+.contenedor-de-personalizacion{
 	display: flex;		
 }
 .circulo-color{
-	height: 16px;
-	width: 4%;
-	padding: 5px;
+	height: 30px;
+	width: 30px;		
 	margin: 5px; 
-	border-radius: 50px;
-	position: relative;
+	border-radius: 15px;
 }
-.circulo-color input[type=radio]{
-    position: absolute;    
-    bottom: -16px;
-    right: 5px;
+input[type=radio]{
+    display: block;
+    margin: 0 auto;   
 }
 .red{
 	background-color: red;
@@ -69,4 +69,43 @@ input[type=text]:focus{
 }
 .pink{
 	background-color: pink;
+}
+
+.tamanio-fuente > span{
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding: 5px;
+}
+.ubicacion{
+	border: 1px solid pink;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	margin: 5px;
+}
+.ubicacion > div{
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	position: absolute;
+}
+.abajo{
+	bottom: 0px;
+}
+.derecha{
+	right: 0px;
+}
+.izquierda{
+	left: 0px;
+}
+.fondo-color{
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+}
+label{
+	color: gray;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
