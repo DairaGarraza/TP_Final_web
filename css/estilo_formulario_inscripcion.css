@@ -16,7 +16,6 @@ main article{
  	float: left;
  	width: 60%;
  	background-color: #0BBABA;
- 	border-radius: 15px;
  	font-weight: bold;
  	color: #fff;
  	display: flex;
@@ -53,7 +52,7 @@ h5{
 	display: flex;
  	flex-direction: column;
 }
-.contenedor-campos, .agregar, .monto{
+.agregar, .monto{
 	display: flex;
  	flex-direction: row;
 }
