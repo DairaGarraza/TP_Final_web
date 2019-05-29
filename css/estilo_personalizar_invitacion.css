@@ -5,7 +5,7 @@ section{
 .contenedor{
 	padding: 10px;
 	width: 30%;
-} 
+}
 .vista-previa{
 	background-color: green;
 	height: 250px;
@@ -99,4 +99,10 @@ input[type=radio]{
 	width: 30px;
 	height: 30px;
 	margin: 5px;
+}
+label{
+	color: gray;
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
