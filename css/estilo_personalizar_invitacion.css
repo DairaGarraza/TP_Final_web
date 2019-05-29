@@ -39,7 +39,7 @@ input[type=text]:focus{
     border:1px solid #5AB0DB;
     border-radius:0;
 }
-.colores{
+.contenedor-de-personalizacion{
 	display: flex;		
 }
 .circulo-color{
@@ -66,4 +66,10 @@ input[type=radio]{
 }
 .pink{
 	background-color: pink;
+}
+
+.tamanio-fuente > span{
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding: 5px;
 }
