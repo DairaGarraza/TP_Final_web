@@ -10,6 +10,17 @@ $(document).ready(function(){
 		}		
 	});
 
+	$("#fechaHoraEvento").keyup(function(){
+
+		var fecha = $(this).val();
+		
+		if (fecha == "") {
+			fecha = "Fecha";			
+		}
+
+		$("#fechaVistaPrevia").text(fecha);		
+	})
+
 	$("input[name='color']").change(function(){
 		var colorFuente = $("input[name='color']:checked").val();
 		$(".vista-previa").css("color", colorFuente);		
