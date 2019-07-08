@@ -102,18 +102,12 @@ main article{
     flex-direction: column;  
     text-align: right;  
 }
-.info-evento p{
-    font-family: Helvetica, sans-serif;
-    font-size: 1.1em;
-    font-weight: bold;
-    float: right;
-}
-.info-evento a{
+.ver-detalle{
     text-decoration: none;
     color: #000;
     padding: 5px;
 }
-.info-evento a:hover{
+.ver-detalle:hover{
     color: #044E56;
 }
 .mapa{
