@@ -10,6 +10,11 @@ $(document).ready(function(){
 		}		
 	});
 
+	$("input[name='color']").change(function(){
+		var colorFuente = $("input[name='color']:checked").val();
+		$(".vista-previa").css("color", colorFuente);		
+	});	
+
 	$("input[name='fondo']").change(function(){
 		var color = $("input[name='fondo']:checked").val();
 		$(".vista-previa").css("background-color", color);		
