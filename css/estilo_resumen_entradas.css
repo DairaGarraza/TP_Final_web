@@ -22,27 +22,13 @@ table{
 	width: 100%
 }
 .boton-personalizar{
-  background-color: #a66ab9;
-  border: none;
-  color: white; 
-  padding: 9px 17px; 
-  font-size: 16px;
-  cursor: pointer; 
-  border-radius: 15px;
-  margin: 5px;
+  background-color: #a66ab9;  
 }
 .boton-personalizar:hover {
   background-color: #68307a;
 }
 .boton-modificar{
-  background-color: #ed78ae;
-  border: none;
-  color: white; 
-  padding: 9px 17px; 
-  font-size: 16px;
-  cursor: pointer; 
-  border-radius: 15px;
-  margin: 5px;
+  background-color: #ed78ae;  
 }
 .boton-modificar:hover {
   background-color: #68307a;

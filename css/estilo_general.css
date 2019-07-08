@@ -145,6 +145,8 @@ footer img{
   cursor: pointer; 
   border-radius: 15px;
   margin: 5px;
+  text-decoration: none;
+  display: inline-block;
 }
 .boton:hover {
   background-color: RoyalBlue;
