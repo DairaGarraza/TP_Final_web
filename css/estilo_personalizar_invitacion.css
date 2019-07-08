@@ -27,7 +27,7 @@ section{
 .texto-centrado {
 	text-align: center;
 }
-input[type=text]{
+.input-personalizar{
   width: 80%;
   padding: 6px 10px;
   margin: 4px 0;
@@ -36,7 +36,7 @@ input[type=text]{
   border-radius: 4px;
   box-sizing: border-box;
 }
-input[type=text]:focus{
+.input-personalizar:focus{
     outline: none;
     box-shadow: 0px 0px 5px #61C5FA;
     border:1px solid #5AB0DB;
