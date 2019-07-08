@@ -30,6 +30,11 @@ main article{
     margin-top: 50px;
  }
 
+ .eventos-destacados {
+    display: block;
+    width: 100%;
+ }
+
  .contenedor-de-eventos{
 	display: flex;
 	justify-content: space-around;	
