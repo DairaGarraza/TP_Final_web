@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="css/estilo_general.css">
 	<link rel="stylesheet" href="css/estilo_formulario_inscripcion.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/formulario.js"></script>
 </head>
 <body>
 	<datalist id="mi-data-list">
@@ -47,72 +49,41 @@
         <h3>INSCRIPCIÓN</h3>
       </article>
 
-        <div>
-          <form action="#" method="get">
-        </div>
-        <article>
+       
+        <article class="formulario">
+          <div class="bloque">
+
                 <form action="#" method="get">
                     <label for="nombre"></label>
-                    <input type="text" name="nombre" placeholder="Ingrese Nombre" required>
+                    <input type="text" name="nombrePersona1" id="nombrePersona1" placeholder="Ingrese Nombre" required>
 
                     <label for="apellido"></label>
-                    <input type="text" name="apellido" placeholder="Ingrese Apellido" required>
+                    <input type="text" name="apellidoPersona1" id="apellidoPersona1" placeholder="Ingrese Apellido" required>
 
                     <label for="dni"></label>
-                    <input type="text" name="dni" placeholder="Ingrese DNI" required>
-
-                    <div class="signo">
-                      <a href=""><img src="img/menos.png"></a>
-                    </div>
-        </article>
-
-
-        <div>
-          <form action="#" method="get">
-        </div>
-        <article>
-                <form action="#" method="get">
-                    <label for="nombre"></label>
-                    <input type="text" name="nombre" placeholder="Ingrese Nombre" required>
-
-                    <label for="apellido"></label>
-                    <input type="text" name="apellido" placeholder="Ingrese Apellido" required>
-
-                    <label for="dni"></label>
-                    <input type="text" name="dni" placeholder="Ingrese DNI" required>
-
-                    <div class="signo">
-                      <a href=""><img src="img/menos.png"></a>
-                    </div>
+                    <input type="text" name="dniPersona1" id="dniPersona1" placeholder="Ingrese DNI" required>
                 </form>
 
+                    <button class="eliminar"><img src="img/menos.png"></button>
+                    
+                    <button class="agregarformulario" ><img src="img/mas.png"></button>
+          </div>
         </article>
-
-
-        <div>
-          <form action="#" method="get">
-        </div>
         <article>
-                <form action="#" method="get">
-                    <label for="nombre"></label>
-                    <input type="text" name="nombre" placeholder="Ingrese Nombre" required>
-
-                    <label for="apellido"></label>
-                    <input type="text" name="apellido" placeholder="Ingrese Apellido" required>
-
-                    <label for="dni"></label>
-                    <input type="text" name="dni" placeholder="Ingrese DNI" required>
-
-                    <div class="signo">
-                      <a href=""><img src="img/menos.png"></a>
-                    </div>
-                </form>
+          <input type="hidden" name="contador-bloque" id="contador-bloque" value="1">
+          <input type="text" id="total-inscripcion-evento" placeholder="" value="100" disabled>
 
         </article>
+
+
+
 
         <article class="acciones">
+
             <div class="agregar">
+              <button class="agregarformulario" ><img src="img/mas.png"></button>
               <div class="signo">
+
                  <a href=""><img src="img/mas.png"></a>
              </div>
              <h4>Agregar persona</h4>
