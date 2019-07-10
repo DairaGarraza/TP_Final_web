@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/estilo_contacto.css">
     <link rel="stylesheet" href="css/estilo_general.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/contacto.js"></script>
 </head>
 <body>
 	<datalist id="mi-data-list">
@@ -40,20 +43,23 @@
         </nav>
         <section>
             <article>
-                <form action="#" method="get">
+                <form action="#" id ="form" name ="form" onsubmit="return validar()"><!-- method="get"-->
                     <label for="nombre">Nombre y Apellido:</label>
-                    <input type="text" name="nombre" placeholder="Ingrese el nombre y Apellido" required>
+                    <input type="text" name="nombre" id="nombre" onkeyup="validar()" placeholder="Ingrese el nombre y Apellido">
 
                     <label for="email">Email:</label>
-                    <input type="email" name="email" placeholder="ejemplo@ejemplo.com.ar" required>
+                    <input type="text" name="email" id="email" onkeyup="validar()" placeholder="ejemplo@ejemplo.com.ar">
 
                     <label for="telefono">Telefono: </label>
-                    <input type="texto" name="telefono" placeholder="011 4444-4444">
+                    <input type="texto" name="telefono" id="telefono" onkeyup="validar()"  placeholder="4444-4444">
 
                     <label for="Consultas">Consultas:</label>
-                    <textarea name="consulta" placeholder="Ingrese su consulta" required></textarea>
+                    <textarea name="consulta" id="consulta" placeholder="Ingrese su consulta"></textarea>
 
                     <input type="submit" value="Enviar" class="boton">
+                    <div id="mensaje" class="error">
+
+                    </div>
                 </form>
             </article>
             <aside> 
