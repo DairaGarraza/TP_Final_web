@@ -1,4 +1,4 @@
- function validar(){
+function validar(){
 	var error=false;
 	var mensajeError='';
 	var regextelefono = /^[0-9]{8}$/;
