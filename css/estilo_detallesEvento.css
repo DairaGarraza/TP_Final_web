@@ -121,3 +121,96 @@ main article{
     width: 100%;
     height: 400px;
 }
+
+
+
+@media screen and (max-width:47em) and (min-width:10em){
+    main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 80%;
+    margin: 20px auto;
+    }
+
+    main article {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #0BBABA;
+    border-radius: 15px;
+    }
+
+    .descripcion {
+    width: 100%;
+    background-color: #FB66A7;
+    border: 2px solid #0BBABA;
+    color: #000;
+    margin-top: 15px;
+    }
+
+    .logo {
+    min-width: 104px;
+    max-width: 136px;
+    min-height: 80px;
+    max-height: 92px;
+    }
+
+    .buscador {
+    width: 80%;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 8px;
+    box-sizing: border-box;
+    }
+
+    .input-icon i {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    }
+
+    .carrito img {
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin-right: 20px;
+    }
+
+    .contador-de-eventos {
+    border-radius: 50%;
+    margin-left: 20px;
+    background: red;
+    color: white;
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    margin-left: 3px;
+    text-align: center;
+    }
+
+    .contenedor-de-eventos {
+    display: flex;
+    
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+    }
+
+    .evento {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: #f3f994;
+    border: 2px solid #044E56;
+    width: 40%;
+    margin-top: 10px;
+    }
+
+}
