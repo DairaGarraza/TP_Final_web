@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/estilo_contacto.css">
     <link rel="stylesheet" href="css/estilo_general.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/contacto.js"></script>
 </head>
 <body>
 	<datalist id="mi-data-list">
@@ -14,21 +17,20 @@
 		<option value="Los Rodriguez"/>
 	</datalist>
     <header>
-        <div>
-            <img class="logo" src="img/logo.png">
-        </div>
-        <div class="input-icon">
-            <input class="buscador" type="text" placeholder="Busca tu evento..." list="mi-data-list">
-            <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i> 
-        </div>
-        <div class="carrito">
-            <img src="img/carrito_1.png">
-            <span class="contador-de-eventos">5</span>
-        </div>
-        
-    </header>
+        <section>
+            <div>
+                <img class="logo" src="img/logo.png">
+            </div>
+            <div class="input-icon">
+                <input class="buscador" type="text" placeholder="Busca tu evento..." list="mi-data-list">
+                <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i> 
+            </div>
+            <div class="carrito">
+                <img src="img/carrito_1.png">
+                <span class="contador-de-eventos">5</span>
+            </div>
+        </section>
     
-    <main>
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -38,22 +40,29 @@
                 <li><a href="personalizar_invitacion.html">Personaliza tu invitación</a></li>
             </ul>
         </nav>
+    </header>
+   
+    <main>
+        
         <section>
             <article>
-                <form action="#" method="get">
+                <form action="#" id ="form" name ="form" onsubmit="return validar()"><!-- method="get"-->
                     <label for="nombre">Nombre y Apellido:</label>
-                    <input type="text" name="nombre" placeholder="Ingrese el nombre y Apellido" required>
+                    <input type="text" name="nombre" id="nombre" onkeyup="validar()" placeholder="Ingrese el nombre y Apellido">
 
                     <label for="email">Email:</label>
-                    <input type="email" name="email" placeholder="ejemplo@ejemplo.com.ar" required>
+                    <input type="text" name="email" id="email" onkeyup="validar()" placeholder="ejemplo@ejemplo.com.ar">
 
                     <label for="telefono">Telefono: </label>
-                    <input type="texto" name="telefono" placeholder="011 4444-4444">
+                    <input type="texto" name="telefono" id="telefono" onkeyup="validar()"  placeholder="4444-4444">
 
                     <label for="Consultas">Consultas:</label>
-                    <textarea name="consulta" placeholder="Ingrese su consulta" required></textarea>
+                    <textarea name="consulta" id="consulta" placeholder="Ingrese su consulta"></textarea>
 
                     <input type="submit" value="Enviar" class="boton">
+                    <div id="mensaje" class="error">
+
+                    </div>
                 </form>
             </article>
             <aside> 
@@ -77,22 +86,22 @@
                 <p>Rocio Isaurralde</p>
                 <p>Daira Garraza</p>
             </article>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="resumen_entradas.html">Resumen de compra</a></li>
+                    <li><a href="formulario_inscripcion.html">Inscripción a evento</a></li>
+                    <li><a href="personalizar_invitacion.html">Personaliza tu invitación</a></li>
+                </ul>
+            </nav>
+        
             <article>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                        <li><a href="resumen_entradas.html">Resumen de compra</a></li>
-                        <li><a href="formulario_inscripcion.html">Inscripción a evento</a></li>
-                        <li><a href="personalizar_invitacion.html">Personaliza tu invitación</a></li>
-                    </ul>
-                </nav>
-            </article>
-            <article>
-                <a href="http://instagram.com/lollapaloozaar" target="_blanck"> <img src="img/logo-instagram.png"></a> 
-                <a href="http://www.facebook.com/lollapaloozaar" target="_blanck"><img src="img/logo-facebook.png"></a>
-               <a href="http://twitter.com/lollapaloozaar" target="_blanck"><img src="img/logo-twitter.png"></a>
-               <a href="http://youtube.com/lollapaloozaar" target="_blanck"><img src=" img/logo-youtube.jpg"></a> 
+                <a href="http://instagram.com/lollapaloozaar" target="_blanck"> <img src="img/004-instagram.png"></a> 
+                <a href="http://www.facebook.com/lollapaloozaar" target="_blanck"><img src="img/001-logo-de-facebook.png"></a>
+               <a href="http://twitter.com/lollapaloozaar" target="_blanck"><img src="img/003-boton-de-logo-del-twitter.png"></a>
+               <a href="http://youtube.com/lollapaloozaar" target="_blanck"><img src=" img/002-youtube.png"></a>
             </article>
         </section>  
     </footer>

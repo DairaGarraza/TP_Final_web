@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="css/estilo_general.css">
 	<link rel="stylesheet" href="css/estilo_personalizar_invitacion.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/personalizacion.js"></script>
 </head>
 <body>
 	<datalist id="mi-data-list">
@@ -15,41 +18,39 @@
 	</datalist>
 
 	<header>
-      <div>
-        <img class="logo" src="img/logo.png">
-      </div>
-
-      <div class="input-icon">
-        <input class="buscador" type="text" placeholder="Busca tu evento..." list="mi-data-list">
-        <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i> 
-      </div>
-
-      <div class="carrito">
-        <img src="img/carrito_1.png">
-        <span class="contador-de-eventos">5</span>
-      </div>	
-   	</header>
+        <section>
+            <div>
+                <img class="logo" src="img/logo.png">
+            </div>
+            <div class="input-icon">
+                <input class="buscador" type="text" placeholder="Busca tu evento..." list="mi-data-list">
+                <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i> 
+            </div>
+            <div class="carrito">
+                <img src="img/carrito_1.png">
+                <span class="contador-de-eventos">5</span>
+            </div>
+        </section>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="resumen_entradas.html">Resumen de compra</a></li>
+                <li><a href="formulario_inscripcion.html">Inscripción a evento</a></li>
+                <li><a href="personalizar_invitacion.html">Personaliza tu invitación</a></li>
+            </ul>
+        </nav>
+    </header>
    
     <main>
-      <nav class="menu">
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="resumen_entradas.html">Resumen de compra</a></li>
-            <li><a href="formulario_inscripcion.html">Inscripción a evento</a></li>
-            <li><a href="personalizar_invitacion.html">Personaliza tu invitación</a></li>
-        </ul>
-    </nav>
-    
-
         <section>
           <article class="contenedor">
             <div class="vista-previa">
               <div class="titulo texto-centrado">
-                <span>Titulo</span>
+                <span id="tituloVistaPrevia">Titulo</span>
               </div>
               <div class="fecha">
-                <span>10 de Junio, 18hs</span>
+                <span id="fechaVistaPrevia">10 de Junio, 18hs</span>
               </div>
             </div>
             <div class="texto-centrado">VISTA PREVIA DE RESULTADO DE PERSONALIZACION</div>
@@ -60,30 +61,30 @@
               <span>Personalización de Invitación</span>
 
               <div>
-                <input type="text" name="tituloEvento" placeholder="Titulo Evento">
+                <input class="input-personalizar" id="tituloEvento" type="text" name="tituloEvento" placeholder="Titulo Evento">
               </div>
 
               <label>Color</label>
               <div class="contenedor-de-personalizacion">
                 <div>
                   <div class="circulo-color red"></div>
-                  <input type="radio" name="color" value="rojo">
+                  <input type="radio" name="color" value="red">
                 </div>   
                 <div>
                   <div class="circulo-color green"></div>
-                  <input type="radio" name="color" value="verde">
+                  <input type="radio" name="color" value="green">
                 </div>
                 <div>
                   <div class="circulo-color blue"></div>
-                  <input type="radio" name="color" value="azul">
+                  <input type="radio" name="color" value="blue">
                 </div>
                 <div>
                   <div class="circulo-color orange"></div>
-                  <input type="radio" name="color" value="naranja">
+                  <input type="radio" name="color" value="orange">
                 </div>
                 <div>
                   <div class="circulo-color pink"></div>
-                  <input type="radio" name="color" value="rosa">
+                  <input type="radio" name="color" value="pink">
                 </div>
               </div>
 
@@ -91,28 +92,28 @@
               <div class="contenedor-de-personalizacion">              
                 <div class="tamanio-fuente">  
                   <span class="fuente">20px</span>
-                  <input type="radio" name="tamanioFuente" value="20">              
+                  <input type="radio" name="tamanioFuente" value="20px">             
                 </div>              
                 <div class="tamanio-fuente">
                    <span class="fuente">28px</span>
-                   <input type="radio" name="tamanioFuente" value="28">
+                   <input type="radio" name="tamanioFuente" value="28px">
                  </div> 
                  <div class="tamanio-fuente">
                    <span class="fuente">32px</span>
-                   <input type="radio" name="tamanioFuente" value="32">
+                   <input type="radio" name="tamanioFuente" value="32px">
                  </div> 
                  <div class="tamanio-fuente">
                    <span class="fuente">48px</span>
-                   <input type="radio" name="tamanioFuente" value="48">
+                   <input type="radio" name="tamanioFuente" value="48px">
                  </div> 
                  <div class="tamanio-fuente">
                    <span class="fuente">60px</span>
-                   <input type="radio" name="tamanioFuente" value="60">
+                   <input type="radio" name="tamanioFuente" value="60px">
                  </div> 
               </div> 
 
               <div>
-                <input type="text" name="fechaHora" placeholder="Fecha y hora">
+                <input id="fechaHoraEvento" class="input-personalizar" type="text" name="fechaHora" placeholder="Fecha y hora">
               </div> 
 
               <label>Ubicacion</label>
@@ -168,30 +169,30 @@
     </main>
 
     <footer>
-      <section>
-          <article>
-              <p>Leandro Aranda</p>
-              <p>Rocio Isaurralde</p>
-              <p>Daira Garraza</p>
-          </article>
-          <article>
-              <nav>
-                  <ul>
-                      <li><a href="index.html">Inicio</a></li>
-                      <li><a href="contacto.html">Contacto</a></li>
-                      <li><a href="resumen_entradas.html">Resumen de compra</a></li>
-                      <li><a href="formulario_inscripcion.html">Inscripción a evento</a></li>
-                      <li><a href="personalizar_invitacion.html">Personaliza tu invitación</a></li>
-                  </ul>
-              </nav>
-          </article>
-          <article>
-              <a href="http://instagram.com/lollapaloozaar" target="_blanck"> <img src="img/logo-instagram.png"></a> 
-              <a href="http://www.facebook.com/lollapaloozaar" target="_blanck"><img src="img/logo-facebook.png"></a>
-             <a href="http://twitter.com/lollapaloozaar" target="_blanck"><img src="img/logo-twitter.png"></a>
-             <a href="http://youtube.com/lollapaloozaar" target="_blanck"><img src=" img/logo-youtube.jpg"></a> 
-          </article>
-      </section>  
+        <section>
+            <article>
+                <p>Leandro Aranda</p>
+                <p>Rocio Isaurralde</p>
+                <p>Daira Garraza</p>
+            </article>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="resumen_entradas.html">Resumen de compra</a></li>
+                    <li><a href="formulario_inscripcion.html">Inscripción a evento</a></li>
+                    <li><a href="personalizar_invitacion.html">Personaliza tu invitación</a></li>
+                </ul>
+            </nav>
+        
+            <article>
+                <a href="http://instagram.com/lollapaloozaar" target="_blanck"> <img src="img/004-instagram.png"></a> 
+                <a href="http://www.facebook.com/lollapaloozaar" target="_blanck"><img src="img/001-logo-de-facebook.png"></a>
+               <a href="http://twitter.com/lollapaloozaar" target="_blanck"><img src="img/003-boton-de-logo-del-twitter.png"></a>
+               <a href="http://youtube.com/lollapaloozaar" target="_blanck"><img src=" img/002-youtube.png"></a>
+            </article>
+        </section>  
     </footer>
 
 </body>

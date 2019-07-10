@@ -1,4 +1,4 @@
-main{
+ main{
  	display: flex;
  	flex-direction: column;
  }
@@ -50,6 +50,11 @@ input, textarea{
  	cursor: pointer;
 
  }
+ 
+ form .error{
+ 	clear: both;
+ 	color: #044E56;
+ }
  .boton:hover{
  	background-color: #ccc;
  	color: #000;
@@ -91,7 +96,6 @@ input, textarea{
  	text-align: center;
  }
 .mapa{
-	
 	width: 100%;
 	height: 100%;
 	margin-bottom: 10px;
@@ -100,4 +104,33 @@ input, textarea{
 .mapa iframe{
 	width: 100%;
 	height: 400px;
+}
+@media screen and (max-width: 60em){
+
+	main section{
+	 	display: flex;
+	 	flex-direction: row;
+	 	justify-content: space-around;
+		align-items: stretch;
+	}
+	section article, aside{
+ 	width: 45%;
+	}
+}
+@media screen and (max-width: 47em){
+
+	main section{
+	 	display: flex;
+	 	flex-direction: column;
+		justify-content: space-around;
+		align-items: stretch;
+
+	}
+	main article{
+ 	width: 100%;
+	}
+	main aside{
+		margin-top: 2em;
+		width: 100%;
+	}
 }
