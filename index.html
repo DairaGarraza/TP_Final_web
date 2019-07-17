@@ -9,10 +9,11 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/slider.css">
     <script type="text/javascript" src="js/contador.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.min(2).js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
 
 </head>
 <body>
@@ -35,15 +36,18 @@
                 <span class="contador-de-eventos" id="total"></span>
             </div>
         </section>
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="resumen_entradas.html">Resumen de compra</a></li>
-                <li><a href="formulario_inscripcion.html">Inscripción a evento</a></li>
-                <li><a href="personalizar_invitacion.html">Personaliza tu invitación</a></li>
-            </ul>
-        </nav>
+        <section class="menuYDesplegable">
+	        <a class="desplegable"><img src="img/hamburger.gif"></a>
+	        <nav class="menu">
+	            <ul>
+	                <li><a href="index.html">Inicio</a></li>
+	                <li><a href="contacto.html">Contacto</a></li>
+	                <li><a href="resumen_entradas.html">Resumen de compra</a></li>
+	                <li><a href="formulario_inscripcion.html">Inscripción a evento</a></li>
+	                <li><a href="personalizar_invitacion.html">Personaliza tu invitación</a></li>
+	            </ul>
+	        </nav>
+    	</section>
     </header>
   
 	<main>
@@ -62,12 +66,11 @@
 			<article><img src="img/001.png"><p> Busca el evento al que quieres ir y la fecha</p></article>
 			<article><img src="img/002.png"><p> Ve los detalles para saber el lugar y horario</p></article>
 			<article><img src="img/003.png"><p> Elige el medio de pago que más te convenga</p></article>
-			<article><img src="img/004.png"><p> Las estradas te llegaran por mail</p></article>
-			<article><img src="img/005.png"><p> Disfruta del evento!!</p></article>
+			<article><img src="img/004.png"><p> Disfruta del evento!!</p></article>
 		</section>
 
 		<section class="eventos-destacados">
-			<h2 class="titulo-centrado">Eventos destacados</h2>
+			<h2>Eventos destacados</h2>
 
 
 				<div class="contenedor-de-eventos">

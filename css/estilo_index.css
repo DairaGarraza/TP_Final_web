@@ -21,6 +21,7 @@ main article{
     padding: 10px;
     box-sizing: border-box;
     margin-top: 50px;
+    width: 100%;
  }
 
  .eventos-destacados {
@@ -83,6 +84,7 @@ main article{
     color: #044E56;
 }
  .contenedor-tarjetas{
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -116,4 +118,39 @@ main article{
     border-radius: 30px;
     margin: 5px;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 60em){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+
+}
+@media screen and (max-width: 47em){
+
+    .pasos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pasos article{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .pasos p{
+        display: inline-block;
+    }
+    .pasos img{
+        height: 50%;
+    }
 }
