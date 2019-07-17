@@ -1,4 +1,4 @@
-function sumar(){
+ function sumar(){
 	if(localStorage.getItem("total")===null){	// con el triple igual esta preguntando por la posicion de memoria
 		localStorage.setItem('total',1);		// se llama "estrictamente igual"
 	}else{

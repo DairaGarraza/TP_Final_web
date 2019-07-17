@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Inicio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/estilo_general.css">
 	<link rel="stylesheet" href="css/estilo_index.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/slider.css">
     <script type="text/javascript" src="js/contador.js"></script>
-    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min(2).js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+
 </head>
 <body>
 	<datalist id="mi-data-list">
@@ -43,8 +47,14 @@
     </header>
   
 	<main>
-		<section>
-			<img src="img/Lollapalooza-argentina-2.jpg" class="slider">
+		<section class="contenedor">
+            <ul class="bxslider">
+                <li><img src="img/slider3.png"></li>
+                <li><img src="img/slider2.jpg"></li>
+                <li><img src="img/Lollapalooza-argentina-2.jpg"></li>
+                <li><img src="img/Lolla-evento.jpg"></li>
+                
+            </ul>
 		</section>
 			
 		<h2>Pasos para comprar tus entradas</h2>
@@ -58,6 +68,7 @@
 
 		<section class="eventos-destacados">
 			<h2 class="titulo-centrado">Eventos destacados</h2>
+
 
 				<div class="contenedor-de-eventos">
 					<article class="evento">

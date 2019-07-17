@@ -1,20 +1,13 @@
  main{
  	display: flex;
  	flex-direction: column;
+    align-items: center;
  }
- main section{
- 	display: flex;
- 	flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
-    width: 80%;
-    margin: 20px auto;
-    flex-wrap: wrap;
- }
+ 
 main article{
  	padding: 10px;
  	box-sizing: border-box;
- 	float: left;
+ 	float: left; 
  	width: auto;
  	background-color: #4CC1C1;
  	border-radius: 15px;
@@ -101,12 +94,16 @@ main article{
     padding: 5px;
  }
 
-.slider{
-    width: auto;
-    height: auto;
-    border: 10px solid #106299;
-    margin: 15px;
-}
+
+.pasos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 80%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+ }
 .pasos article{
     width: 15%;
     text-align: center;
